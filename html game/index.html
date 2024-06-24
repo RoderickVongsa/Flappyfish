@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body onload="startGame()">
+    <script src="game.js"></script> <!-- Link to JavaScript file -->
+    <br>
+    <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)" ontouchstart="accelerate(-0.2)" ontouchend="accelerate(0.05)">ACCELERATE</button>
+    <button onclick="resetGame()">RESET GAME</button>
+    <p>Use the ACCELERATE button to stay in the air</p>
+    <p>How long can you stay alive?</p>
+</body>
+</html>
